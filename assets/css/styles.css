@@ -16550,7 +16550,18 @@ textarea.form-control-lg {
 }
 
 
+.imgBack{
+  background:no-repeat center/cover url("../images/backgrounds/img.jpg");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
+@media only screen and (max-width:600px){
+  .imgBack{
+  background:no-repeat center/cover url("../images/backgrounds/img2.jpg");
+}
+}
 
 .video-wrapper {
   position: relative;
